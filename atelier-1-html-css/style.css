@@ -13,6 +13,7 @@ body{
 }
 #web_top #info h1{  
     font-size:38px;
+    color:hsl(300, 43%, 22%) ;
     
 }
 #web_top #info h1 span{  
@@ -58,7 +59,7 @@ body{
     height: auto;
 }
 .card{
-    background-color: #511f50;
+    background-color: hsl(300, 43%, 22%);
     height:60%;
     margin-left: 2%;
     border-radius: 10px;
@@ -85,11 +86,15 @@ body{
 }
 
 .card .card_img p{
-    color: white;
+    color: white !important;
 }
-.card .card_img p span{
+.card .card_img p {
     border-radius: 50%;
-    color: #8a4176;
+    color: hsl(300, 43%, 22%);
+} 
+.card .card_img p .ver{
+    border-radius: 50%;
+    color: hsl(333, 80%, 67%) !important;
 } 
 .card p{
     color: white;
@@ -98,7 +103,7 @@ body{
 @media(max-width:700px)
 {   
     #web_top{
-        display:block;
+        display:block;_
     }
     #web_top #info{
         width: 100%;
@@ -133,4 +138,4 @@ body{
         width: 90%;
         height: 70%;
     }
-}
+} 
