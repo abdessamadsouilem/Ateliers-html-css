@@ -155,3 +155,29 @@ section{
       .kira { grid-area: kira; }
 
 }
+@media (max-width:600px){
+    section{
+        width: 600px;
+        height: auto;
+        padding: 100px ;
+        background-color:  hsl(210, 46%, 95%);
+    }
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        grid-template-areas:
+          "danielle danielle"
+          "jonathan jonathan"
+          "jannette jannette"
+          "patrik patrik"
+          "kira kira";
+      }
+      .danielle { grid-area: danielle; }
+      .jonathan { grid-area: jonathan; }
+      .jannette { grid-area: jannette; }
+      .patrik { grid-area: patrik; }
+      .kira { grid-area: kira; }
+
+}
