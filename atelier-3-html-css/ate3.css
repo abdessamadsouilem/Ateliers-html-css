@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+
+}
+body{
+    padding: 10px;
+    padding-top: 15px;
+}
+section{
+    width: 1440px;
+    height: 600px;
+    padding: 100px ;
+    background-color:  hsl(210, 46%, 95%);
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-areas:
+      "danielle danielle jonathan kira"
+      "jannette patrik patrik kira";
+  }
+  .danielle { grid-area: danielle; }
+  .jonathan { grid-area: jonathan; }
+  .jannette { grid-area: jannette; }
+  .patrik { grid-area: patrik; }
+  .kira { grid-area: kira; }
+  .danielle{
+    padding: 2rem;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:80% 0% ;
+    border-radius: 10px;
+    
+    
+    
+}
+.jonathan{
+    
+    padding: 2rem;
+     background-color: hsl(217, 19%, 35%); 
+   
+    background-size: 100% 50%;
+    border-radius: 10px;
+    
+
+}
+.jannette{
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+
+}
+.patrik{
+    padding: 2rem;
+    background-color:hsl(219, 29%, 14%);
+    border-radius: 10px;
+   
+    
+    
+}
+.kira{
+    padding: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+    
+}
+.image{
+    border-radius: 50%;
+}
+.me{
+    display: flex;
+    margin-bottom: 8px;
+}
+.mee{
+    display: block;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: hsl(0, 0%, 81%);
+    
+}
+.par1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:hsl(210, 46%, 95%) ;
+}
+.gra{
+    opacity: 50%;
+}
+.par2{
+    opacity: 70%;
+    color: hsl(210, 46%, 95%);
+}
+.par3{
+    color: black;
+}
+@media (max-width:1340px){
+    section{
+        width: 1340px;
+        height: auto;
+        padding: 100px ;
+        background-color:  hsl(210, 46%, 95%);
+    }
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        grid-template-areas:
+          "danielle danielle jonathan"
+          "jannette patrik patrik"
+          "kira kira kira";
+      }
+      .danielle { grid-area: danielle; }
+      .jonathan { grid-area: jonathan; }
+      .jannette { grid-area: jannette; }
+      .patrik { grid-area: patrik; }
+      .kira { grid-area: kira; }
+
+}
+@media (max-width:900px){
+    section{
+        width: 900px;
+        height: auto;
+        padding: 100px ;
+        background-color:  hsl(210, 46%, 95%);
+    }
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        grid-template-areas:
+          "danielle danielle"
+          "jonathan jonathan"
+          "jannette jannette"
+          "patrik patrik"
+          "kira kira";
+      }
+      .danielle { grid-area: danielle; }
+      .jonathan { grid-area: jonathan; }
+      .jannette { grid-area: jannette; }
+      .patrik { grid-area: patrik; }
+      .kira { grid-area: kira; }
+
+}

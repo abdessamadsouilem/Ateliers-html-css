@@ -4,9 +4,10 @@ body{
     font-family: 'Spartan';
 }
 #web_top{
-    margin-top: 10%;
+    margin-top: 6%;
     display: inline-flex;
     width: 100%;
+    height: auto;
 }
 #web_top #info{  
     width: 35%;
@@ -26,15 +27,15 @@ body{
 }
 
 #web_top #templeat{  
-    margin-left: 6%;
-    margin-top: 5%;
+    margin-left: 24%;
+    margin-top: 3%;
     width: 50%;
     display:block;
 }
 #web_top #templeat .itoil{  
    display: inline-flex;
    background-color: #f7f2f8;
-   width: 90%;
+   width: 65%;
    margin-top: 10px;
    border-radius: 10px;
    padding-left: 5%;
@@ -75,6 +76,7 @@ body{
 .card:last-child{
     margin-top: 4%;
     margin-right: 2% !important;
+    
 }
 .card .card_img{
     display: inline-flex;
@@ -114,10 +116,12 @@ body{
     #web_top #templeat {  
         display:block;
         width: 90%;
+        margin-left: 5%;
      }
     #web_top #templeat .itoil{  
         display:block;
-        text-align: center;     
+        text-align: center;
+        width: 90%;     
      }
      #web_top #templeat .itoil:nth-child(2){  
         margin-left: 0%; 
